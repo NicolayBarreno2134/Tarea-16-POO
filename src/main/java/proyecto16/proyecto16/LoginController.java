@@ -49,6 +49,7 @@ public class LoginController {
             } else {
                 usuarioTextField.clear();
                 contraseñaTextField.clear();
+                rolComboBox.getItems().clear();
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Error de credenciales");
                 alert.setHeaderText(null);
