@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="340" prefWidth="380" spacing="20" style="-fx-background-color: #f0f4f8; -fx-padding: 40;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="proyecto16.proyecto16.ResultadoController">
+
+    <Label style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #1a3a5c;" text="🕹️ Resultado Final" />
+
+    <Label fx:id="lblPuntaje" style="-fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: #27ae60;" />
+
+    <Label fx:id="lblCorrectas" style="-fx-font-size: 15px; -fx-text-fill: #2c3e50;" />
+
+    <Label fx:id="lblIncorrectas" style="-fx-font-size: 15px; -fx-text-fill: #e74c3c;" />
+
+    <Button onAction="#cerrar" style="-fx-background-color: #1a3a5c; -fx-text-fill: white;                    -fx-pref-width: 120px; -fx-pref-height: 36px; -fx-background-radius: 6;" text="Regresar" />
+</VBox>

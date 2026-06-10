@@ -1,0 +1,30 @@
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+.text-field, .password-field, .combo-box {
+    -fx-pref-width: 250;
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #c8e6c9;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 6;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-pref-width: 120;
+    -fx-pref-height: 35;
+}
+
+#ingresarButton {
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+}
+
+#cancelarButton {
+    -fx-background-color: transparent;
+    -fx-border-color: #2e7d32;
+    -fx-text-fill: #2e7d32;
+}

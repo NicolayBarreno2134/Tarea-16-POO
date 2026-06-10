@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="540" prefWidth="480" spacing="18" style="-fx-background-color: #5E70FF; -fx-padding: 35;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="proyecto16.proyecto16.EncuestaController">
+
+    <Label style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #1a3a5c;" text="🕹️ Trivia de Videojuegos de los 80" textFill="#6003ab" />
+
+    <VBox spacing="6" style="-fx-background-color: #A3F8FF; -fx-padding: 12; -fx-background-radius: 8;">
+        <Label style="-fx-font-weight: bold; -fx-text-fill: #2c3e50;" text="1. ¿Cuál fue el primer videojuego donde apareció Mario?" />
+        <RadioButton fx:id="r1a" text="Donkey Kong" />
+        <RadioButton fx:id="r1b" text="Super Mario Bros" />
+        <RadioButton fx:id="r1c" text="Mario Kart" />
+        <RadioButton fx:id="r1d" text="Mario World" />
+    </VBox>
+
+    <VBox spacing="6" style="-fx-background-color: #A3F8FF; -fx-padding: 12; -fx-background-radius: 8;">
+        <Label style="-fx-font-weight: bold; -fx-text-fill: #2c3e50;" text="2. ¿Qué consola popularizó los cartuchos intercambiables?" />
+        <RadioButton fx:id="r2a" text="Atari 2600" />
+        <RadioButton fx:id="r2b" text="NES (Nintendo Entertainment System)" />
+        <RadioButton fx:id="r2c" text="Sega Master System" />
+        <RadioButton fx:id="r2d" text="Commodore 64" />
+    </VBox>
+
+    <VBox spacing="6" style="-fx-background-color: #A3F8FF; -fx-padding: 12; -fx-background-radius: 8;">
+        <Label style="-fx-font-weight: bold; -fx-text-fill: #2c3e50;" text="3. ¿En qué año se lanzó el clásico Pac-Man?" />
+        <RadioButton fx:id="r3a" text="1978" />
+        <RadioButton fx:id="r3b" text="1980" />
+        <RadioButton fx:id="r3c" text="1983" />
+        <RadioButton fx:id="r3d" text="1985" />
+    </VBox>
+
+    <VBox spacing="6" style="-fx-background-color: #A3F8FF; -fx-padding: 12; -fx-background-radius: 8;">
+        <Label style="-fx-font-weight: bold; -fx-text-fill: #2c3e50;" text="4. ¿Cuál era el objetivo principal del juego Space Invaders?" />
+        <RadioButton fx:id="r4a" text="Rescatar astronautas" />
+        <RadioButton fx:id="r4b" text="Defender la Tierra de alienígenas" />
+        <RadioButton fx:id="r4c" text="Construir naves espaciales" />
+        <RadioButton fx:id="r4d" text="Escapar de meteoritos" />
+    </VBox>
+
+    <Label fx:id="lblError" style="-fx-text-fill: red; -fx-font-size: 12px;" />
+
+    <Button onAction="#calcular" style="-fx-background-color: #1a3a5c; -fx-text-fill: white;                    -fx-font-size: 14px; -fx-pref-width: 160px; -fx-pref-height: 38px;                    -fx-background-radius: 6;" text="Ver Resultado" />
+    <Button onAction="#cerrarEncuesta" style="-fx-background-color: #e74c3c; -fx-text-fill: white;                -fx-pref-width: 160px; -fx-pref-height: 38px;                -fx-background-radius: 6;" text="Cerrar Encuesta" />
+
+</VBox>
